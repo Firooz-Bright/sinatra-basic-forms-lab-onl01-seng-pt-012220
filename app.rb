@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end 
   
   
-  post '/'  do 
+  get '/'  do 
     
     erb :display_puppy
     
